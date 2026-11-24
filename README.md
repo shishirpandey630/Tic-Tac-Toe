@@ -21,6 +21,7 @@ A clean, responsive Tic Tac Toe game built with **Next.js**, **React**, and **Ta
 - **Cool start screen** — custom tic-tac-toe icon and gradient buttons.
 
 ## 🧱 Tech Stack
+
 - Next.js 15 (App Router)
 - React 19
 - Tailwind CSS v4
@@ -28,7 +29,7 @@ A clean, responsive Tic Tac Toe game built with **Next.js**, **React**, and **Ta
 
 
 ## 📁 Project Structure
-
+```
 app/
 ├─ layout.js            # Root layout, theme script, metadata
 ├─ page.js              # Entry page
@@ -48,7 +49,7 @@ app/
 └─ lib/
    ├─ game.js           # Win detection + AI (easy/medium/hard)
    └─ symbols.js        # Symbol set + player mapping
-
+```
 ## 🎯 How to Play
 
 1. On the home screen, choose **New Game** (vs computer) or **Multiplayer** (2 players).
